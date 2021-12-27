@@ -1,1 +1,1 @@
-hello
+it is my first REST api so do not judge strict :)
