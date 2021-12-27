@@ -18,6 +18,7 @@ const UserSchema = new Schema({
   gender: {
     required: true,
     type: String,
+    enum : ['m','f'],
   },
   password: {
     required: true,
