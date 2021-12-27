@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const path = require("path");
+const cors = require("cors");
 const config = require("config");
 const routes = require("./routes");
 
@@ -8,6 +8,7 @@ const app = express();
 
 app.use(express.json({ extended: true }));
 app.use("/api", routes);
+app.use(cors());
 
 const PORT = config.get("port") || 5000;
 

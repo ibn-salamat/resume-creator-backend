@@ -1,6 +1,5 @@
 {
-  "port": 5000,
-  "mongoURI": "mongodb+srv://nurlykhan:qwerty123@cluster0.nugrl.azure.mongodb.net/resume-creator?retryWrites=true&w=majority",
+  "port": 5001,
+  "mongoURI": "mongodb+srv://nurlykhan:qwerty123@cluster0.nugrl.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "jwtSecret": "mern resume app by nurlykhan"
 }
-
