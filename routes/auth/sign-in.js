@@ -1,7 +1,7 @@
 const bcrypt = require("bcryptjs");
 const config = require("config");
 const jwt = require("jsonwebtoken");
-const User = require("../models/user");
+const User = require("../../models/user");
 
 function wrongData(res) {
     res.status(400).json({ message: "Wrong email or password.", error: {} });
